@@ -33,6 +33,7 @@ void implimentWorstFit(int blockSize[], int blocks, int processSize[], int proce
                     indexPlaced = j;
             }
         }
+	
  
         // If we were successfully able to find block for the process
         if (indexPlaced != -1)
